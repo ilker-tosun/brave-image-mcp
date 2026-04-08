@@ -26,7 +26,7 @@ An MCP (Model Context Protocol) server for [Brave Image Search API](https://brav
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/brave-image-mcp.git
+git clone https://github.com/ilker-tosun/brave-image-mcp.git
 cd brave-image-mcp
 npm install
 npm run build
