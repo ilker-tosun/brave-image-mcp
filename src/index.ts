@@ -8,14 +8,14 @@
  * Requires BRAVE_API_KEY environment variable.
  */
 
-import { Server } from "@modelcontextprotocol/sdk/server/index.js";
-import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { Server } from "@modelcontextprotocol/sdk/server/index";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio";
 import {
   CallToolRequestSchema,
   ErrorCode,
   ListToolsRequestSchema,
   McpError,
-} from "@modelcontextprotocol/sdk/types.js";
+} from "@modelcontextprotocol/sdk/types";
 
 const BRAVE_IMAGE_SEARCH_URL =
   "https://api.search.brave.com/res/v1/images/search";

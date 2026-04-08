@@ -4,7 +4,6 @@
   "description": "MCP server for Brave Image Search API",
   "author": "Ilker Tosun",
   "license": "MIT",
-  "type": "module",
   "main": "dist/index.js",
   "bin": {
     "brave-image-mcp": "dist/index.js"
