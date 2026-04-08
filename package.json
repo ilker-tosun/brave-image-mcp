@@ -1,0 +1,37 @@
+{
+  "name": "brave-image-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Brave Image Search API",
+  "author": "Ilker Tosun",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "brave-image-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "brave",
+    "image-search",
+    "model-context-protocol"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
